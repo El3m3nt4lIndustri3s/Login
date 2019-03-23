@@ -13,7 +13,34 @@
         <div>Elemental<span> Industries</span>
             <span>Admin</span> Control Panel</div>
         </div>
-        <div class="box">
-        </div>
+        <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">People</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="joseph.html">Joseph</a>
+    <a href="ethan.html">Ethan</a>
+    <a href="oliver.html">Oliver</a>
+  </div>
+</div>
+        <script>
+        /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+        </script>
     </body>
 </html>
