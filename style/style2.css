@@ -18,8 +18,8 @@ body {
 
 .header{
 	position: absolute;
-	top: 55px;
-	left: 578px;
+	top: 50px;
+	left: 300px;
 	
 }
 
@@ -43,7 +43,7 @@ body {
 
 img.barbutton{
     height: 50px;
-    margin-right: 400px;
+    margin-right: 510px;
         
     
 }
