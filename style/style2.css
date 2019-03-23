@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body {
+    background-image: url(https://www.miaonline.org/wp-content/uploads/red-background-and-photo-high-resolution-download.jpg)
+}
+
+.header{
+	position: absolute;
+	top: 55px;
+	left: 578px;
+	
+}
+
+.header div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 40px;
+	font-weight: 200;
+}
+
+.header div span{
+	color: #F29E20 !important;
+}
+
+.box {
+    border: px solid #4D4A4A;
+    color: white;
+    background-color: #4D4A4A;
+}
+
+img.barbutton{
+    height: 50px;
+    margin: 100px;
+        
+    
+}
+
+img.barbutton:hover{
+    opacity: 0.6;
+}
