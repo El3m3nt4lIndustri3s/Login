@@ -72,8 +72,8 @@ img.login{
 }
 
 .dropdown {
-  float: left;
-  position: relative;
+  left: 100px;
+  position: absolute;
   display: inline-block;
 }
 
