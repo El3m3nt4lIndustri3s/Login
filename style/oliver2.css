@@ -30,3 +30,8 @@ body {
 .header div span{
 	color: #F29E20 !important;
 }
+
+p{
+    color: lime;
+    font-style: italic;
+}
