@@ -5,10 +5,6 @@ body {
     position: fixed; 
     overflow-y: scroll;
     width: 100%;
-	top: -20px;
-	left: -20px;
-	right: -40px;
-	bottom: -40px;
 	width: auto;
 	height: auto;
 	background-image: url(https://motionarray.imgix.net/preview-82967-gZ6ArOJAiM-low_0011.jpg?w=660&q=60&fit=max&auto=format);
