@@ -33,7 +33,7 @@ function check(form)
  
  if(form.userid.value == "Elemental" && form.pswrd.value == "Industries")
   {
-    window.open('pages/cp.html')
+    window.open('pages/cp.php')
   }
  else
  {
