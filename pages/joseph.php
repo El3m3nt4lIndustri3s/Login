@@ -5,7 +5,7 @@
 </head>
 <body>
     <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Settings</button>
+  <button onClick="myFunction()" class="dropbtn">Settings</button>
   <div id="myDropdown" class="dropdown-content">
     <a href="https://el3m3nt4lindustri3s.github.io">Main website</a>
     <a href="cp.html">Log out</a>

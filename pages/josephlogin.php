@@ -5,8 +5,8 @@
 
   <meta charset="UTF-8">
 
-  <title>Main Login</title>
-  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="../style/joseph.css">
 </head>
 
 <body oncontextmenu="return false">
@@ -14,7 +14,7 @@
   <div class="body"></div>
 		<div class="grad"></div>
 		<div class="header">
-			<div>Elemental<span> Industries</span></div>
+			<div>Joseph's<span> Login</span></div>
 		</div>
 		<br>
 		<form name="login">
@@ -31,9 +31,9 @@
 function check(form)
 {
  
- if(form.userid.value == "Elemental" && form.pswrd.value == "Industries")
+ if(form.userid.value == "joarmstrong2014@gmail.com" && form.pswrd.value == "Husky10p")
   {
-    window.open('pages/cp.html')
+    window.open('joseph.php')
   }
  else
  {

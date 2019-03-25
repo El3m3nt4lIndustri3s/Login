@@ -14,11 +14,11 @@
             <span>Admin</span> Control Panel</div>
         </div>
         <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">People</button>
+  <button onClick="myFunction()" class="dropbtn">People</button>
   <div id="myDropdown" class="dropdown-content">
-    <a href="josephlogin.html">Joseph</a>
+    <a href="josephlogin.php">Joseph</a>
     <a href="ethanlogin.html">Ethan</a>
-    <a href="oliverlogin.html">Oliver</a>
+    <a href="oliverlogin.php">Oliver</a>
   </div>
 </div>
         <script>
