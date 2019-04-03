@@ -32,6 +32,15 @@ body {
 }
 
 p{
-    color: lime;
+    color: red;
     font-style: italic;
 }
+
+h1{
+	color: lime;
+	font-style:italic;	
+	}
+h2{
+	color: lime;
+	font-style: italic;
+	}
