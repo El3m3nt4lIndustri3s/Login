@@ -3,14 +3,10 @@
 
 
 
-.body{
+body{
     position: fixed; 
     overflow-y: scroll;
     width: 100%;
-	top: -20px;
-	left: -20px;
-	right: -40px;
-	bottom: -40px;
 	width: auto;
 	height: auto;
 	background-image: url(https://www.miaonline.org/wp-content/uploads/red-background-and-photo-high-resolution-download.jpg);
