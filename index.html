@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-      <title>Elemental Industries Admin Login page</title>
-      <link rel="icon" href="logofinished.png">
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <meta charset="UTF-8">
+
+  <title>Main Login</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+
 </head>
-<body>
-  <h1>This page is currently in development.</h1>
-  <h2>Unlike the main website this page will not have gradual construction.</h2>
-  <h2>All additions will be added all at once.</h2>
-  <h2>Certain infomation will be leaked only when or if necessary.</h2>
+
+<body oncontextmenu="return false">
+
+  <div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<div>Elemental<span> Industries</span></div>
+		</div>
+		<br>
+		<form name="login">
+		<div class="login">
+				<input type="text" placeholder="Username" name="userid"><br>
+				<input type="password" placeholder="Password" name="pswrd"><br>
+				<input type="button" onclick="check(this.form)" value="Login"/>
+		</div>
+
+
+
+</form>
+<script language="javascript">
+function check(form)
+{
+
+ if(form.userid.value == "Elemental" && form.pswrd.value == "Industries")
+  {
+    window.open('pages/cp.html')
+  }
+ else
+ {
+   alert("You have entered the wrong username/password.")
+  }
+}
+</script>
 </body>
-</html>
+</html> 
