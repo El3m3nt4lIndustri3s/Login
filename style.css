@@ -13,6 +13,15 @@ h1 {
     color: #ffff; 
     text-align: center; 
 } 
+
+header img {
+    transform: rotateY(0deg);
+    transition: 2.0s;
+}
+
+header img:active {
+    transform: rotateY(1080deg);
+}
  
 .main-div, .loggedin-div { 
     width: 20%; 
