@@ -41,6 +41,12 @@ header img:active {
     z-index: 100000000;
     position: relative;
 } 
+
+.signup-div {
+    z-index: 100000000;
+    position: relative;
+}
+
  
 .main-div input { 
     display: block; 
