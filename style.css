@@ -26,6 +26,16 @@ header img {
 header img:active {
     transform: rotateY(1080deg);
 }
+
+header p {
+    text-align: left;
+    color: #ffff;
+}
+
+.description {
+    color: #ffff;
+    text-align: center;
+}
  
 .main-div, .loggedin-div { 
     width: 20%; 
