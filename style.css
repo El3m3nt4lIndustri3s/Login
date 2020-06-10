@@ -45,6 +45,7 @@ header img:active {
 .signup-div {
     z-index: 1000000;
     position: relative;
+    text-align: center;
 }
 
  
