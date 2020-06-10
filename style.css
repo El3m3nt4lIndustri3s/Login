@@ -17,11 +17,6 @@ body {
 input button { 
     font-family: Roboto; 
 } 
- 
-h1 { 
-    color: #ffff; 
-    text-align: center; 
-} 
 
 header img {
     transform: rotateY(0deg);
